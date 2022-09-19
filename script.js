@@ -69,15 +69,15 @@ function tom() {
 function check() {
   if (joe >= 2) {
     result.innerHTML = `<strong>Joe Keery</strong>`
-    resultPic.innerHTML = `<img src="personality_quiz/Joe.jpeg">`
+    resultPic.innerHTML = `<img src="Joe.jpeg">`
   }
   else if (harry >= 2) {
     result.innerHTML = `<strong>Harry Styles</strong>`
-    resultPic.innerHTML = `<img src="personality_quiz/Harry.jpg">`
+    resultPic.innerHTML = `<img src="Harry.jpg">`
   }
   else if (tom >= 2) {
     result.innerHTML = `<strong>Tom Holland</strong>`
-    resultPic.innerHTML = `<img src="personality_quiz/Tom.jpeg">`
+    resultPic.innerHTML = `<img src="Tom.jpeg">`
   }
   else {
     console.log(error);
